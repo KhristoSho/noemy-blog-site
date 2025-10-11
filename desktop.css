@@ -25,10 +25,15 @@ body {
     margin: 0;
 }
 
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
 .text--style {
     font-family: "Open Sans";
     text-transform: uppercase;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .header {
@@ -113,7 +118,7 @@ body {
 }
 
 .header__about {
-    padding-top: 70px;
+    padding-top: 100px;
 
     font-size: 45px;
     line-height: 75px;
@@ -214,7 +219,7 @@ body {
 }
 
 .item__description {
-    padding: 38px 30px 34px;
+    padding: 35px 30px 34px;
     border: 3px solid rgba(181, 159, 91, 0.6);
 }
 
@@ -327,6 +332,10 @@ body {
     color: #0f0d0e;
     font-weight: 400;
     font-family: "Open Sans";
+}
+
+.article__about p:nth-child(n + 1) {
+    margin-top: -5px;
 }
 
 .main__posts {
@@ -480,11 +489,11 @@ body {
 }
 
 .aside__tags {
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 }
 
 .tags__title {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
     font-size: 14px;
 }
 
@@ -500,13 +509,19 @@ body {
 }
 
 .tags__list a {
-    text-decoration: none;
+    margin-top: 5px;
+    padding: 5px 13px;
+    
+}
+
+.tags__list li {
+    height: 30px;
 }
 
 .tags__item {
+    margin-top: 5px;
     box-sizing: border-box;
     height: 30px;
-    padding: 7px 13px;
 
     border: 3px solid rgb(238, 238, 238);
 
@@ -543,8 +558,9 @@ body {
     gap: 0px;
 }
 
-.topics_list a {
+.topics__item a {
     text-decoration: none;
+    color: #000000;
 }
 
 .topics__item {
@@ -553,14 +569,13 @@ body {
 
     font-size: 14px;
     line-height: 1;
-    color: #000000;
     font-weight: 700;
     font-family: "Open Sans";
 
     position: relative;
 }
 
-.topics__item:hover {
+.topics__item a:hover {
     color: #b59f5b;
 }
 
