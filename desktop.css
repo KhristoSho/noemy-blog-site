@@ -381,28 +381,28 @@ ul {
     gap: 22px;
 }
 
-.newpost__item {
+.newposts__item {
     display: flex;
 }
 
-.newpost__item-image {
+.newposts__item-image {
     height: 70px;
     width: 70px;
     margin-right: 18px;
 }
 
-.newpost__item-container {
+.newposts__item-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.newpost__item-date {
+.newposts__item-date {
     line-height: 1;
     margin-bottom: -5px;
 }
 
-.newpost__item-title {
+.newposts__item-title {
     font-size: 13px;
     text-transform: uppercase;
     color: #0f0d0e;
@@ -410,7 +410,7 @@ ul {
     font-family: "Open Sans";
 }
 
-.newposts__form_search {
+.newposts__form {
     display: flex;
     align-items: center;
 }
@@ -447,7 +447,7 @@ ul {
     background-color: #323232;
 }
 
-.newposts__form_search-image {
+.newposts__input-image {
     height: 18px;
 }
 
@@ -554,7 +554,7 @@ ul {
     top: 24px;
 }
 
-.topics_list {
+.topics__list {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
