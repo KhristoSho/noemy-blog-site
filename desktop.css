@@ -98,7 +98,7 @@ ul {
     padding: 0;
 }
 
-.header__nav {
+.header__nav-list {
     display: flex;
     gap: 33px;
 }
